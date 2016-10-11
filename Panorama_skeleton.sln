@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlignPair", "AlignPair\AlignPair.vcxproj", "{F0232047-CD3C-4AF0-9459-E4CB85EEDA5E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC} = {BEB82E9D-361D-4AD1-B92C-8D06499E73EC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraPose", "CameraPose\CameraPose.vcxproj", "{A9679CEB-B067-441F-94FC-42B3D4CB4611}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC} = {BEB82E9D-361D-4AD1-B92C-8D06499E73EC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLibs", "MyLibs\MyLibs.vcxproj", "{BEB82E9D-361D-4AD1-B92C-8D06499E73EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatchPair", "MatchPair\MatchPair.vcxproj", "{22971CCC-7D5C-4ED1-8C8B-EB1FEE8E0CFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC} = {BEB82E9D-361D-4AD1-B92C-8D06499E73EC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WarpCylinderical", "WarpCylinderical\WarpCylinderical.vcxproj", "{068D4DAD-7A2E-473F-B0E6-E1F64CC54190}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC} = {BEB82E9D-361D-4AD1-B92C-8D06499E73EC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0232047-CD3C-4AF0-9459-E4CB85EEDA5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0232047-CD3C-4AF0-9459-E4CB85EEDA5E}.Debug|Win32.Build.0 = Debug|Win32
+		{F0232047-CD3C-4AF0-9459-E4CB85EEDA5E}.Release|Win32.ActiveCfg = Release|Win32
+		{F0232047-CD3C-4AF0-9459-E4CB85EEDA5E}.Release|Win32.Build.0 = Release|Win32
+		{A9679CEB-B067-441F-94FC-42B3D4CB4611}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9679CEB-B067-441F-94FC-42B3D4CB4611}.Debug|Win32.Build.0 = Debug|Win32
+		{A9679CEB-B067-441F-94FC-42B3D4CB4611}.Release|Win32.ActiveCfg = Release|Win32
+		{A9679CEB-B067-441F-94FC-42B3D4CB4611}.Release|Win32.Build.0 = Release|Win32
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC}.Debug|Win32.Build.0 = Debug|Win32
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC}.Release|Win32.ActiveCfg = Release|Win32
+		{BEB82E9D-361D-4AD1-B92C-8D06499E73EC}.Release|Win32.Build.0 = Release|Win32
+		{22971CCC-7D5C-4ED1-8C8B-EB1FEE8E0CFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22971CCC-7D5C-4ED1-8C8B-EB1FEE8E0CFC}.Debug|Win32.Build.0 = Debug|Win32
+		{22971CCC-7D5C-4ED1-8C8B-EB1FEE8E0CFC}.Release|Win32.ActiveCfg = Release|Win32
+		{22971CCC-7D5C-4ED1-8C8B-EB1FEE8E0CFC}.Release|Win32.Build.0 = Release|Win32
+		{068D4DAD-7A2E-473F-B0E6-E1F64CC54190}.Debug|Win32.ActiveCfg = Debug|Win32
+		{068D4DAD-7A2E-473F-B0E6-E1F64CC54190}.Debug|Win32.Build.0 = Debug|Win32
+		{068D4DAD-7A2E-473F-B0E6-E1F64CC54190}.Release|Win32.ActiveCfg = Release|Win32
+		{068D4DAD-7A2E-473F-B0E6-E1F64CC54190}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

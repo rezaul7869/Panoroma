@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-i 1 -j 2 -tol 1.5 -iter 5000</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerEnvironment>PATH=C:\OpenCV\opencv\build\x86\vc10\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-i 1 -j 2 -tol 1.5 -iter 5000</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Users\rbarbhuiya\Desktop\Panaroma\Panorama_skeleton\Debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
